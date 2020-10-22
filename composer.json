@@ -1,6 +1,5 @@
 {
   "name": "napaeduhub/eskiz-sms-client",
-  "version": "0.1.0",
   "keywords": [
     "framework",
     "laravel",
@@ -9,8 +8,9 @@
   ],
   "license": "MIT",
   "require": {
-    "guzzlehttp/guzzle": "~6.0|~7.0",
-    "laravel/framework": "~8.0"
+    "php": ">=5.4.0",
+    "illuminate/contracts": "^5.0|^6.0|^7.0|^8.0|^9.0",
+    "guzzlehttp/guzzle": "^6.0|^7.0"
   },
   "autoload": {
     "psr-4": {
