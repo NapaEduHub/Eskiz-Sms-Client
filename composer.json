@@ -1,7 +1,6 @@
 {
   "name": "napaeduhub/eskiz-sms-client",
   "version": "0.1.0",
-  "type": "project",
   "keywords": [
     "framework",
     "laravel",
