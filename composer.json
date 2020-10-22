@@ -1,0 +1,31 @@
+{
+  "name": "napaeduhub/eskiz-sms-client",
+  "version": "0.1.0",
+  "type": "project",
+  "keywords": [
+    "framework",
+    "laravel",
+    "sms",
+    "eskiz"
+  ],
+  "license": "MIT",
+  "require": {
+    "guzzlehttp/guzzle": "~6.0|~7.0",
+    "laravel/framework": "~8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Napa\\R19\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Napa\\R19\\SmsServiceProvider"
+      ],
+      "aliases": {
+        "Sms": "Napa\\R19\\Sms"
+      }
+    }
+  }
+}
